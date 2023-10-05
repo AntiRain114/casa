@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .word-container {
+            display: flex; /* 使用Flexbox布局 */
+            justify-content: space-between; /* 词汇等距分布 */
+        }
+
+        .word {
+            padding: 10px; /* 可以根据需要调整词汇之间的间距 */
+            /*border: 1px solid #ccc; /* 添加边框或样式 */
+           font-size: 24px; /* 设置字体大小 */
+            color: #358fe2; /* 设置字体颜色为蓝色 */
+        }
+        .theme-paragraph {
+            text-align: left; /* 文字左对齐 */
+            /*background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            overflow: hidden; /* 清除浮动 */
+        }
+
+        .theme-paragraph img {
+            max-width: 2in; /* 限制图片宽度为2英寸 */
+            max-height: 2in; /* 限制图片高度为2英寸 */
+            float: right; /* 图片浮动到右侧 */
+            margin-left: 10px; /* 添加左边距以分隔文字和图片 */
+            margin-top: 10px;
+            /*border: 1px solid #ccc; /* 可选：添加图片边框 */
+        }
+        .contact-info {
+             width: 600px; /* 每行两个主元素，减去间距 */
+            margin-bottom: 20px; /* 可以根据需要调整主元素之间的垂直间距 */
+            padding: 10px;
+        }
+
+        .contact-part1 {
+             display: inline-block;
+            margin-right: 10px; /* 可以根据需要调整次级元素之间的水平间距 */
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-part2 {
+           display: inline-block;
+            margin-right: 10px; /* 可以根据需要调整次级元素之间的水平间距 */
+            font-style: italic;
+            font-family: "Times New Roman", serif;
+        }
+        .contact{
+            display: flex;
+            background-color: #f2f2f2;
+            flex-wrap: wrap; /* 主元素自动换行 */
+            justify-content: space-between; /* 主元素水平分布 */
+        }
+        
+  </style>
+    <title>Zekun Wang</title>
+  
+  
+</head>
+<body>
+    <header>
+        <h1>Zekun Wang</h1>
+      <h2>A new CE sutdent</h1>
+        <!-- 在这里可以添加导航菜单或页面标题 -->
+    </header>
+
+    <main>
+        <section>
+           <div class="word-container">
+        <div class="word">HOME</div>
+        <div class="word">ABOUT</div>
+        <div class="word">PROJECT</div>
+        <div class="word">GROUP WORK</div>
+        <!-- 添加更多词汇 -->
+    </div>
+          <hr>
+       <div class="theme-paragraph">
+        <img src="img\ic.png" alt="emmmm">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur bibendum venenatis. Mauris ac dignissim tellus. In sed metus a risus venenatis dapibus. Aliquam a metus non felis scelerisque ultrices in non est. Integer tempus ante nec fringilla feugiat. Nullam hendrerit elementum porttitor. Donec at purus augue. In ac sapien eu lacus posuere egestas. Vivamus eu mi at metus facilisis elementum ac ut quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ullamcorper, tortor at viverra rutrum, orci libero accumsan ex, non malesuada ligula eros facilisis metus. Cras cursus egestas fermentum. Nam et tortor id arcu aliquam dapibus ut non lectus. Maecenas laoreet ultrices semper.</p>
+        <p>Nam pretium a libero sed aliquet. Ut molestie at eros nec egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus sit amet tellus in arcu finibus laoreet. Ut vel nisi pellentesque, aliquet nulla in, porttitor nibh. Proin pretium dui sit amet libero suscipit tincidunt. Maecenas finibus arcu at consequat porta. Quisque id ullamcorper neque.</p>
+        <p>In aliquet arcu augue. Sed sed gravida dui. Vestibulum sed nunc at leo eleifend convallis. In lacinia id orci eu egestas. Etiam mattis, elit quis egestas dignissim, libero ipsum volutpat leo, id accumsan urna velit sit amet ante. Proin tempus mauris vitae metus tincidunt dignissim. Cras vestibulum magna id odio commodo ullamcorper. Aliquam id leo sit amet erat blandit sollicitudin. Phasellus eu sapien eget erat aliquet ultrices. In hac habitasse platea dictumst. Aliquam in sapien vel libero finibus vulputate. Fusce ut tincidunt diam.</p>
+    </div>
+    <hr>
+ <div class="contact">
+    <div class="contact-info">
+        <div class="contact-part1">Contact：</div>
+        <div class="contact-part2">zekun.wang.23@ucl.ac.uk</div>
+    </div>
+    <div class="contact-info">
+        <div class="contact-part1">Current Location：</div>
+        <div class="contact-part2">UCL</div>
+    </div>
+    <div class="contact-info">
+        <div class="contact-part1">Blog：</div>
+        <div class="contact-part2">empty now</div>
+    </div>
+    <div class="contact-info">
+        <div class="contact-part1">Twitter：</div>
+        <div class="contact-part2">@Jiangze87366588</div>
+    </div>
+    <div class="contact-info">
+        <div class="contact-part1">Facebook：</div>
+        <div class="contact-part2">empty now</div>
+    </div>
+ </div>
+
+
+         
+            <!-- 在这里添加页面内容 -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mywebsite</p>
+        <!-- 在这里可以添加页脚内容或版权信息 -->
+    </footer>
+
+    <!-- 在这里可以添加你的JavaScript文件链接或内联脚本 -->
+</body>
+</html>
